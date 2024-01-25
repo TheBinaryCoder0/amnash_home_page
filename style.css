@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* MAIN */
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* LEFT */
+
+#left{
+    width: 70%;
+    height: 100%;
+}
+
+/* LTOP */
+
+#ltop{
+    padding: 40px 40px;
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1492560704044-e15259ca1c61?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    letter-spacing: 5px;
+}
+
+/* LTOPMENU */
+
+#ltopmenu{
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+/* LTOP HOME */
+
+#ltophome{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+#ltophome h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+
+/* LTOP TRACKS */
+
+#ltoptracks{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+#ltoptracks h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+
+/* LTOP VIDEOS */
+
+#ltopvideos{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+#ltopvideos h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+
+/* LTOP GALLERY */
+
+#ltopgallery{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+#ltopgallery h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+
+/* LBOTTOM */
+
+#lbottom{
+    padding: 40px 40px;
+    width: 100%;
+    height: 40%;
+    background-image: url(https://images.unsplash.com/photo-1561014816-50ce5acb5e73?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    letter-spacing: 5px;
+}
+
+/* LBOTTOMMENU */
+
+#lbottommenu{
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+#lbottommenu h1{
+    color: white;
+}
+
+/* LBOTTOM MUSIC THEORY */
+
+#lbottommusictheory{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+#lbottommusictheory h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* LBOTTOM PIANO */
+
+#lbottompiano{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+#lbottompiano h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* LBOTTOM GUITAR */
+
+#lbottomguitar{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+#lbottomguitar h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* LBOTTOM METRONOME */
+
+#lbottommetronome{
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+#lbottommetronome h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* RIGHT */
+ 
+#right{
+    width: 30%;
+    height: 100%;
+}
+
+/* RTOP */
+
+#rtop{
+    padding: 60px 60px;
+    width: 100%;
+    height: 60%;
+    background-image: url(https://images.unsplash.com/photo-1593975403686-c1e1f1151ab6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    letter-spacing: 5px;
+}
+
+/* RTOPMENU */
+
+#rtopmenu{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(87, 83, 83, 0.47);
+}
+
+#rtopmenu h1{
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* RTOP SAMPLES */
+
+/* RTOP VST */
+
+
+
+/* RTOP TEMPLATES */
+
+/* RTOP DAW */
+
+/* RBOTTOM */
+
+#rbottom{
+    width: 100%;
+    height: 40%;
+    background-image: url(https://images.unsplash.com/photo-1527952613700-fb1aec7f01c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+/* RBOTTOMMENU */
+
+#rbottommenu {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rbottommenu h1{
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
